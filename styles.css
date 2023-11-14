@@ -1,0 +1,156 @@
+.myWidgetStyle {
+  position: fixed;
+  bottom: 55px;
+  right: 30px;
+  background-color: #23272b;
+  border: 1px solid #40637f;
+  border-radius: 4px;
+  padding: 0;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.myWidgetStyle_p {
+  color: #bbbbbb;
+  font-size: 12px;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+#myWidgetStyleButtonCLose,
+#myWidgetStyleButtonCopy {
+  position: relative;
+  margin: 0;
+  padding: 4px 10px;
+  width: 14px;
+  height: 14px;
+  align-items: center;
+  justify-content: center;
+  background-color: #23272b;
+  border-width: 0;
+}
+
+#myWidgetStyleButtonCLose:hover::after,
+#myWidgetStyleButtonCopy:hover::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: 0;
+  bottom: -2px;
+  left: 0;
+  border: 1px solid #70b0e6;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.myWidgetStyle_mark:after {
+  content: "💩";
+  position: absolute;
+  font-size: 14px;
+  top: 2px;
+  right: 4px;
+}
+
+.material-icons {
+  cursor: pointer;
+  color: #7f919d;
+}
+
+body {
+  width: 240px;
+  height: 180px;
+  background-color: #23272b;
+  color: #bbbbbb;
+}
+
+.toast {
+  position: fixed;
+  bottom: 95px;
+  right: 30px;
+  background-color: rgba(35, 39, 43, 0.9);
+  border: 1px solid #40637f;
+  border-radius: 4px;
+  color: #bbbbbb;
+  font-size: 12px;
+  padding: 4px 10px;
+  z-index: 1000;
+}
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #48bb78;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  background-color: #23272b;
+  border-bottom: 1px solid #40637f;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 30px;
+}
+.btn-extension {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #23272b;
+  border: 1px solid #40637f;
+  border-radius: 4px;
+  padding: 4px 10px;
+  margin: 0;
+  width: 98px;
+  cursor: pointer;
+  color: #bbbbbb;
+}
+.btn-on-off {
+  width: 50px;
+  height: 30px;
+}
+
+.btn-extension.btn-on-off.on {
+  border: 1px solid #48bb78;
+}
+
+.btn-extension:hover {
+  border: 1px solid #70b0e6;
+}
+.btn-extension:active {
+  border: 1px solid #263f53;
+}
+.counter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+#counter {
+  margin-right: 4px;
+}
+
+.bmc-container {
+  margin-top: 20px;
+}
