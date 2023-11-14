@@ -1,10 +1,21 @@
+
 # youtrack-copier-extension
 
--> Go to chrome -> Manage Extensions
--> Turn on Develover Mode
--> Click Load unpacked 
--> Select the extension from directory
--> Done
--> Turn off Developer Mode (Optional)
+An simple extension to copy ticket/issue card as table. So you can paste it to Google Docs or anything
+
+## Installation
+
+Install the extension
+
+```bash
+  > Go to chrome -> Manage Extensions
+  > Turn on Develover Mode
+  > Click Load unpacked 
+  > Select the extension from directory
+  > Done
+  > Turn off Developer Mode (Optional)
+```
+    
 
 Feel free to make any PR's
+
