@@ -8,6 +8,7 @@ An simple extension to copy ticket/issue card as table. So you can paste it to G
 Install the extension
 
 ```bash
+  > Clone this repo
   > Go to chrome -> Manage Extensions
   > Turn on Develover Mode
   > Click Load unpacked 
