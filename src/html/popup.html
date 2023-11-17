@@ -7,18 +7,18 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <div class="header">
-      <img src="images/icon.png" class="icon" alt="Extension Icon" />
+      <img src="../images/icon.png" class="icon" alt="Extension Icon" />
       <h1>Youtrack Copier</h1>
     </div>
     <div class="counter-container">
       <span id="counter">0</span><span> Tikets Saved</span>
     </div>
     <div class="button-container">
-      <button class="btn-extension" id="clickme">Clear Tikets</button>
+      <button class="btn-extension" id="remove-button">Clear Tikets</button>
       <button class="btn-extension" id="copy-button">Copy Tikets</button>
     </div>
     <div class="button-container bmc-container">
@@ -30,6 +30,6 @@
           style="height: 30px !important; width: 140px !important"
       /></a>
     </div>
-    <script src="background.js"></script>
+    <script type="module" src="../js/background.js"></script>
   </body>
 </html>
