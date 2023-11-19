@@ -34,7 +34,7 @@ const updateCounter = (counter) => {
 
 getListOfTicket((listOfTicket) => {
   if (listOfTicket) {
-    updateCounter(result?.listOfTicket?.length);
+    updateCounter(listOfTicket?.length);
   }
 });
 
