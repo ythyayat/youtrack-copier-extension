@@ -1,0 +1,14 @@
+{
+  "name": "youtrackcopierextension",
+  "module": "./src/js/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "bun run build.js"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
